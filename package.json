@@ -1,0 +1,35 @@
+{
+  "name": "agv-sim.js",
+  "version": "1.0.0",
+  "description": "A simple agv simulator.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperMonoid/agv-sim-js.git"
+  },
+  "keywords": [
+    "agv",
+    "simulator",
+    "react"
+  ],
+  "author": "PaperMonoid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaperMonoid/agv-sim-js/issues"
+  },
+  "homepage": "https://github.com/PaperMonoid/agv-sim-js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
